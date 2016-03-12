@@ -103,4 +103,4 @@ Support Vector Drawables and Animated Vector Drawables Demo
             android:background="@null"
             android:button="@drawable/android_selector"/>
     ```
-    [图片](/vd_checkbox.gif)
+    ![图片](/vd_checkbox.gif)
