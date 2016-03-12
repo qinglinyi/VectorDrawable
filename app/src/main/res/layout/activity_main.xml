@@ -33,7 +33,7 @@
         android:button="@drawable/android_selector"/>
 
     <TextView
-        android:background="@drawable/android_green_ic_wrap"
+        android:drawableLeft="@drawable/android_green_ic_wrap"
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
