@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.qinglinyi.vectordrawable"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="com.qinglinyi.vectordrawable"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".VectorDrawableActivity"
+            android:label="@string/title_activity_vector_drawable"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ActivityAnimatedVectorDrawable"
+            android:label="@string/title_activity_animated_vector_drawable"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
